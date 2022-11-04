@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2022-11-03
+
 ### Added
 
 - Add code style schemes with prettier and editor config.
@@ -23,10 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 - Remove unused modules.
-
-## [0.1.0] - 2022-10-20
-
-- Initial release
 
 [unreleased]: https://github.com/ManuelGil/blogter/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/ManuelGil/blogter/releases/tag/v0.1.0

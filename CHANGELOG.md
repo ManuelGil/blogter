@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add code style schemes with prettier and editor config.
 - Add LICENSE file.
 - Add Husky tool to manage test and lint in the pre-commit.
+- Add Categories, Likes, Posts, Reports, Timelines and Users modules.
 
 ### Changed
 

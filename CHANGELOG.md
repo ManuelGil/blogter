@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add ENVIROMENT file and example with dummies for configuration.
+- Add Configuration Module to async load of enviroment variables.
+- Add Open API configuration for documentation.
+
 ## [0.1.0] - 2022-11-03
 
 ### Added

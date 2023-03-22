@@ -11,7 +11,7 @@ import { PostsService } from './services/posts.service';
 import { CreatePostDto } from './dto/create-post.dto';
 import { UpdatePostDto } from './dto/update-post.dto';
 
-@Controller('api/v1/posts')
+@Controller('v1/posts')
 export class PostsController {
   constructor(private readonly postsService: PostsService) {}
 

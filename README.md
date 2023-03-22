@@ -4,9 +4,17 @@
 [![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/blogter)](https://github.com/ManuelGil/blogter/releases/tag/v0.1.0)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/blogter)](./LICENSE)
 
-## Description
+Blogter is a social media application for writing and sharing blogs with no character restrictions. Users can enrich their text with various formatting options, and engage with other users through interactions such as "likes", "retweets", "shares", and "comments".
 
-social network for blogs
+## Features
+
+- Personalization: Users can personalize their profiles and their experience on the application.
+- Categories: Blogs can be categorized, and users can filter blogs by category.
+- Notifications: A notification system alerts users when their blogs receive interactions, comments, etc.
+- Multimedia integration: Users can include images, videos, and other types of multimedia content in their blogs.
+- SEO-friendly: The application is optimized for search engines to help blogs appear in search results.
+- Privacy: Privacy options allow users to control who can see their blogs and who can't.
+- Analytics tools: Analytics tools help users understand their reach and impact on the community.
 
 ## Installation
 

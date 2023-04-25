@@ -5,13 +5,18 @@ ConfigModule.forRoot({
 });
 
 export const options = {
-  type: 'mysql',
+  type: 'postgres',
   host: process.env.DATABASE_HOST || 'localhost',
-  port: parseInt(String(process.env.DATABASE_PORT), 10) || 3306,
+  port: parseInt(String(process.env.DATABASE_PORT), 10) || 5432,
   username: process.env.DATABASE_USERNAME,
   password: process.env.DATABASE_PASSWORD,
   database: process.env.DATABASE_DATABASE,
-  logging: process.env.DATABASE_LOGGING || false,
+  logging: process.env.DATABASE_LOGGING,
   retryAttempts: process.env.DATABASE_RETRY_ATTEMPTS,
   retryDelay: process.env.DATABASE_RETRY_DELAY,
+  autoLoadEntities: true,
+  synchronize: false,
+  entities: [__dirname + '/../libs/database/src/lib/entities/**/*.entity.ts'],
+  migrationsTableName: 'migrations',
+  migrations: [__dirname + '/../libs/database/migrations/**/*.ts'],
 };

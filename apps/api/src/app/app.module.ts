@@ -21,7 +21,7 @@ import { UsersModule } from './users/users.module';
         DATABASE_HOST: Joi.string().default('localhost').required(),
         DATABASE_PORT: Joi.number().default(5432).required(),
         DATABASE_USERNAME: Joi.string().required(),
-        DATABASE_PASSWORD: Joi.string().required(),
+        DATABASE_PASSWORD: Joi.any().optional(),
         DATABASE_DATABASE: Joi.string().required(),
         DATABASE_LOGGING: Joi.any().default(false).optional(),
         DATABASE_RETRY_ATTEMPTS: Joi.number().default(10).optional(),
